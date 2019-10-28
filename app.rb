@@ -5,10 +5,10 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get ('/name') {}
+  get ('/name') {"My name is Mani"}
   
-  get ('/hometown') {}
+  get ('/hometown') {"My hometown is Seoul"}
 
-  get ('/favorite-song') {}
+  get ('/favorite-song') {"My favorite song is Gayo"}
 
 end
