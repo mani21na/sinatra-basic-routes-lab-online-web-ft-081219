@@ -10,5 +10,4 @@ class App < Sinatra::Base
   get ('/hometown') {"My hometown is Seoul"}
 
   get ('/favorite-song') {"My favorite song is Gayo"}
-
 end
